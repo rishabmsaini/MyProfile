@@ -1,0 +1,35 @@
+.site-header {
+    background-color: #1bbc9c;
+    color: #edf5f3;
+    height: 100vh;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-header-content {
+    margin: 10px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    /*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    */
+    box-shadow: #0a8269 2px 5px 5px;
+}
+
+.email-id {
+    color: #edf5f3;
+}
+
+body {
+    margin: 0;
+}
